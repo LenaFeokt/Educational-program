@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.countires.controllers.TestWindowController">
+    <Label fx:id="questionLabel" layoutX="50.0" layoutY="50.0" text="Question"/>
+    <TextField fx:id="answerTextField" layoutX="50.0" layoutY="100.0" prefWidth="200.0"/>
+    <Button fx:id="nextButton" layoutX="350.0" layoutY="100.0" mnemonicParsing="false" onAction="#onNextButtonClicked"
+            text="Далее"/>
+    <Button fx:id="checkButton" layoutX="250.0" layoutY="100.0" mnemonicParsing="false" onAction="#onCheckButtonClicked"
+            text="Проверить"/>
+
+    <Label fx:id="checkedLabel" layoutX="50" layoutY="150"/>
+</AnchorPane>
